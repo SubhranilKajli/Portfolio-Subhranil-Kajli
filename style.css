@@ -4,6 +4,10 @@
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
 }
+
+html{
+    scroll-behavior: smooth;
+}
 .header{
     padding-top: 47px;
     /* background: yellow; */
@@ -58,8 +62,8 @@
 
 
 .front-page{
-    height: 78vh;
-    width: 100vw;
+    height:600px ;
+    /* width:1600px ; */
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -127,11 +131,24 @@
     
 
 }
+.contact-info:hover{
+    background-color: rgb(56, 55, 55);
+    color: white;
+    border: none;
+    
+
+}
 
 .cv{
     color: rgba(0, 0, 0, 0.758);
     background:white;
 
+}
+
+.cv:hover{
+    background: rgb(0, 0, 0);
+    color:white;
+    cursor: pointer;
 }
 
 .some-links img{
